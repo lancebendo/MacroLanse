@@ -94,7 +94,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KeyboardHook.cs" />
     <Compile Include="MacroApplicationContext.cs" />
     <Compile Include="MacroSettings.cs" />
     <Compile Include="MacroSettingsForm.cs">

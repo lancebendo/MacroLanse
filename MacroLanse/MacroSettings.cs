@@ -68,10 +68,6 @@ namespace MacroLanse
         {
             get { return IsEnabled == false; }
         }
-
-
-        //start
-
-        //end
+        
     }
 }

@@ -23,7 +23,9 @@ namespace MacroLanse
 
             InputPressTimeout.DataBindings.Add(new Binding("Text", appContext.MacroSettings, "PressTimeout"));
             InputPressTimeout.DataBindings.Add(new Binding("Enabled", appContext.MacroSettings, "CanEdit"));
-            
+            InputPressTimeout.ValueChanged += (object sender, EventArgs e) => { appContext.MacroSettings.PressTimeout = (int) InputPressTimeout.Value; };
+
+            appContext.OnStartEvent += (object sender, EventArgs e) => { Close(); };
         }
         
     }
