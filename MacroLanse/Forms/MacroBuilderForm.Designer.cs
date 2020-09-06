@@ -227,6 +227,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "MacroBuilderForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Macro Builder";
             ((System.ComponentModel.ISupportInitialize)(this.dgvMacros)).EndInit();
             this.ResumeLayout(false);

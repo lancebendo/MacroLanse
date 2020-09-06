@@ -84,6 +84,7 @@
             this.MinimizeBox = false;
             this.Name = "MacroSetForm";
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Set Form";
             this.ResumeLayout(false);
             this.PerformLayout();
