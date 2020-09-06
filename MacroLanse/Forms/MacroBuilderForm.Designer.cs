@@ -112,7 +112,7 @@
             this.comboMacroSet.FormattingEnabled = true;
             this.comboMacroSet.Location = new System.Drawing.Point(198, 19);
             this.comboMacroSet.Name = "comboMacroSet";
-            this.comboMacroSet.Size = new System.Drawing.Size(233, 30);
+            this.comboMacroSet.Size = new System.Drawing.Size(288, 30);
             this.comboMacroSet.TabIndex = 5;
             // 
             // labelMacroSet
@@ -154,7 +154,7 @@
             // 
             // btnRenameMacroSet
             // 
-            this.btnRenameMacroSet.Location = new System.Drawing.Point(337, 65);
+            this.btnRenameMacroSet.Location = new System.Drawing.Point(392, 65);
             this.btnRenameMacroSet.Name = "btnRenameMacroSet";
             this.btnRenameMacroSet.Size = new System.Drawing.Size(94, 38);
             this.btnRenameMacroSet.TabIndex = 10;
