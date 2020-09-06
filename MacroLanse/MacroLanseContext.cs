@@ -93,8 +93,8 @@ namespace MacroLanse
             foreach (VirtualKeyCode values in Enum.GetValues(typeof(VirtualKeyCode)))
             {
                 if (!values.ToString().Contains("VK_")) continue;
-                else if (!values.ToString().Contains("VK_A")) continue;
-                else if (!values.ToString().Contains("VK_S")) continue;
+                else if (values.ToString().Contains("VK_A")) continue;
+                else if (values.ToString().Contains("VK_S")) continue;
 
                 Keys.Add(new VirtualKey(values));
             }
