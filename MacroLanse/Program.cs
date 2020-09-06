@@ -1,6 +1,8 @@
-﻿using System;
+﻿using MacroLanse.Forms;
+using System;
 using System.Diagnostics;
 using System.Windows.Forms;
+using WindowsInput.Native;
 
 namespace MacroLanse
 {
@@ -22,7 +24,8 @@ namespace MacroLanse
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MacroApplicationContext());
+            //Application.Run(new MacroApplicationContext());
+            Application.Run(new MacroLanseContext());
         }
         
         public static Process PriorProcess()

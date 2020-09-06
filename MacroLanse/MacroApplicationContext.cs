@@ -9,7 +9,9 @@ using WindowsInput.Native;
 
 namespace MacroLanse
 {
-    public class MacroApplicationContext : ApplicationContext
+    
+
+    public class MacroApplicationContext : MacroLanseContext
     {
         private static InputSimulator ip = new InputSimulator();
         public MacroSettings MacroSettings = MacroSettings.Instance;
@@ -43,6 +45,9 @@ namespace MacroLanse
                 {startKey, Start },
                 {stopKey, Stop }
             });
+
+
+            string x = VirtualKeyCode.VK_0.ToString();
         }
        
 
